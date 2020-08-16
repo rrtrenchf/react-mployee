@@ -69,7 +69,6 @@ class App extends React.Component {
        Emp = {this.state.emp}
        search = {this.state.search}
        />
-    <li>{this.state.firstName}</li>
     </div>
       
     );

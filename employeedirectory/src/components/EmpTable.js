@@ -9,7 +9,7 @@ function EmpTable(props) {
         <table>
             <tr>
                 <th>Image</th>
-                <th>First Name</th>
+                <th>-First Name-</th>
                 <th>Last Name</th>
                 <th>Age</th>
 

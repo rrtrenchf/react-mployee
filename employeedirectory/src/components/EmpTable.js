@@ -17,7 +17,7 @@ function EmpTable(props) {
             </tr>
             {findEmp?.map(employee => (
                 <tr key={employee.id}>
-                    <td>*<img src={employee.picture.thumbnail} /></td>
+                    <td><img src={employee.picture.thumbnail} /></td>
                     <td>{employee.name.first}</td>
                     <td>{employee.name.last}</td>
                     <td>{employee.dob.age}</td>
